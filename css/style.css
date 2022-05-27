@@ -1,0 +1,80 @@
+#anima-div{
+    width: 250px;
+    height: 250px;
+    background: #ffffff;
+    position: relative;
+}
+/*
+@keyframes mov-div{
+    from{top:0px;}
+    to{top:300px;}
+}
+*/
+
+/*
+@keyframes mov-div{
+    0% {top:0px; left:0px; background: #ff0000;}
+    25%{top:0px; left:300px; background: #1fbb53;}
+    50% {top:300px; left:300px; background: #5434c5;}
+    75% {top:300px; left:0px; background: #8b990f;}
+    100% {top:0px; left:0px; background: #799abe;}
+@keyframes mov-div{  
+*/
+
+/*
+@keyframes mov-div{
+    0% {width:100px; background: #ff0000;}
+    50% {width:800px; background: #5434c5;}
+    100% {width:100px; background: #799abe;}
+}
+*/
+
+.tabela{
+    border: solid 1px #000000;
+    border-collapse: collapse;
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    left: 150%;
+    top: 15%
+}
+
+td{
+    border: solid 1px #6b3f21;
+    border-collapse: collapse;
+}
+
+#td-1{
+    background-color: #6b3f21;
+}
+
+#cavalo{
+    position: absolute;
+    width: 72px;
+    top: 40px;
+    left: 470px;
+    animation: mov-div 20s infinite;
+}
+
+@keyframes mov-div{
+    0%{top:40px; left:470px;}
+    4%{top: 215px; left:470px;}
+    8%{top: 215px; left:557.5px;}
+    12%{top: 390px; left:557.5px;}
+    16%{top: 390px; left:645px;}
+    20%{top: 565px; left:645px;}
+    24%{top: 565px; left:820px;}
+    28%{top: 565px; left:820px;}
+    32%{top: 652.5px; left:820px;}
+    36%{top: 652.5px; left:820px;}
+    40%{top: 565px; left:820px;}
+    44%{top: 565px; left:820px;}
+    48%{top: 565px; left:645px;}
+    52%{top: 390px; left:645px;}
+    56%{top: 390px; left:557.5px;}
+    60%{top: 215px; left:557.5px;}  
+    64%{top: 215px; left:470px;}
+    68%{top:40px; left:470px;}
+    
+    
+}
